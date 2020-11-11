@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+.skills .title::after {
+  content: "What i know";
+}
+.skills .skill-content .column {
+  width: calc(50% - 30px);
+}
+.skills .skill-content .left .text {
+  font-size: 25px;
+  font-weight: 600;
+}
+.skills .skill-content .left p {
+  text-align: justify;
+}
+.skills .skill-content .left a {
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+.skills .skill-content .left a:hover {
+  color: crimson;
+  background: none;
+}
+.skills .skill-content .right .bars {
+  margin-bottom: 15px;
+}
+.skills .skill-content .right .bars .info {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .skill-content .right .bars .info span {
+  font-weight: 500;
+  font-size: 18px;
+}
+.skills .skill-content .right .bars .line {
+  height: 5px;
+  width: 100%;
+  background: lightgray;
+  position: relative;
+}
+.skills .skill-content .right .bars .line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: crimson;
+}
+.skills .skill-content .right .bars .html::before {
+  width: 30%;
+}
+.skills .skill-content .right .bars .html::before {
+  width: 30%;
+}
+.skills .skill-content .right .bars .css::before {
+  width: 30%;
+}
+.skills .skill-content .right .bars .react::before {
+  width: 20%;
+}
+/* reponsive media */
+@media (max-width: 1300px) {
+}
+@media (max-width: 1104px) {
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 947px) {
+  .skills .skill-content .column {
+    width: calc(100%);
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 690px) {
+}
+@media (max-width: 500px) {
+}
