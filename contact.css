@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+.contact .title::after {
+  content: "Get in touch";
+}
+.contact .contact-content .column {
+  width: calc(50% - 20px);
+}
+.contact .contact-content .left .up .text {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.contact .contact-content .left .down ul {
+  list-style: none;
+  margin-top: 30px;
+}
+.contact .contact-content .left .down li {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.contact .contact-content .left .down i {
+  width: 80px;
+  font-size: 30px;
+  color: crimson;
+}
+.contact .contact-content .left .down .textt {
+  font-size: 20px;
+  font-weight: 500;
+}
+.contact .contact-content .right .text {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+.contact .contact-content .right .email {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact .contact-content .right .email input {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  width: calc(50% - 15px);
+  height: 50px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+.contact .contact-content .right .message {
+  margin: 20px 0;
+}
+.contact .contact-content .right .message input {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  height: 50px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+.contact .contact-content .right textarea {
+  width: 100%;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+.contact .contact-content .right a {
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+.contact .contact-content .right a:hover {
+  background: none;
+  color: crimson;
+}
+/* reponsive media */
+@media (max-width: 1300px) {
+}
+@media (max-width: 1104px) {
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 947px) {
+    .contact .contact-content .column {
+        width: 100%
+      }
+}
+@media (max-width: 690px) {
+}
+@media (max-width: 500px) {
+}

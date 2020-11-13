@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./service.css" />
     <link rel="stylesheet" href="./skill.css" />
     <link rel="stylesheet" href="./team.css" />
+    <link rel="stylesheet" href="./contact.css" />
+    <link rel="stylesheet" href="./backtop.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
@@ -22,6 +24,7 @@
     <title>My Blog</title>
   </head>
   <body>
+    <a href="#home" class="backtop"><i class="fas fa-angle-up"></i></a>
     <!-- . class,# id, > component, * quantity -->
     <nav class="navbar">
       <div class="max-width">
@@ -29,12 +32,12 @@
           <a href="#">Bao<span>ray</span></a>
         </div>
         <ul class="menu">
-          <li><a href="#">Home</a></li>
+          <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="menu-btn">
           <i class="fas fa-bars"></i>
@@ -201,8 +204,8 @@
           </div>
           <div class="card">
             <div class="box">
-              <img src="./images/tanle.jpg" alt="team1" />
-              <div class="text">Pro Tanle</div>
+              <img src="./images/khi.jpg" alt="team1" />
+              <div class="text">Kien Ngu</div>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus,
                 impedit vero. Nobis, maxime hic. Harum soluta officiis corporis
@@ -213,8 +216,8 @@
           </div>
           <div class="card">
             <div class="box">
-              <img src="./images/tanle.jpg" alt="team1" />
-              <div class="text">Pro Tanle</div>
+              <img src="./images/fusdu.jpg" alt="team1" />
+              <div class="text">Black Tits</div>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus,
                 impedit vero. Nobis, maxime hic. Harum soluta officiis corporis
@@ -222,6 +225,62 @@
                 impedit tempore ab.
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section contact  -->
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="title">Contact me</h2>
+        <div class="contact-content">
+          <div class="column left">
+            <div class="left up">
+              <div class="text">Get in touch</div>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempore fugit reiciendis natus eaque distinctio! Dolor corporis
+                magnam, est cumque magni, nemo dolore nesciunt vitae optio unde
+                culpa molestias, at autem.
+              </p>
+            </div>
+            <div class="left down">
+              <ul class="content">
+                <li>
+                  <i class="fas fa-user-alt"></i>
+                  <div class="prop">
+                    <div class="textt">Name</div>
+                    <p>Bao Ray</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="prop">
+                    <div class="textt">Place</div>
+                    <p>24 Hoa Son 3 st, Hai Chau district, Da Nang</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-envelope"></i>
+                  <div class="prop">
+                    <div class="textt">Email</div>
+                    <p>bao.ray1999@gmail.com</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="column right">
+            <div class="text">Message me</div>
+            <div class="email">
+              <input type="text" readonly value="bao.ray1999" />
+              <input type="text" readonly value="@gmail.com" />
+            </div>
+            <div class="message">
+              <input type="text" readonly value="Message" />
+            </div>
+            <textarea cols="30" rows="3" readonly>Hello!</textarea>
+            <a href="#">Send message</a>
           </div>
         </div>
       </div>

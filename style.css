@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -15,12 +18,14 @@ section {
 .about,
 .services,
 .skills,
-.team {
+.team,
+.contact {
   font-family: "Poppins", sans-serif;
 }
 .about .about-content,
 .services .serv-content,
-.skills .skill-content {
+.skills .skill-content,
+.contact-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;

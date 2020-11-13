@@ -1,9 +1,28 @@
 $(document).ready(function () {
+  //menu link click smooth
+  $("a")
+    .not('[href="#"]')
+    .not('[href="#0"]')
+    .click(function (e) {
+      var data_id = $(this).attr("href");
+      $("html, body").animate(
+        {
+          scrollTop: $(data_id).offset().top,
+        },
+        800
+      );
+    });
+  //navbar animation
   $(window).scroll(function () {
     if (this.scrollY > 20) {
       $(".navbar").addClass("sticky");
     } else {
       $(".navbar").removeClass("sticky");
+    }
+    if (this.scrollY > 100) {
+      $(".backtop").addClass("show");
+    } else {
+      $(".backtop").removeClass("show");
     }
   });
   //toggle menu/navbar
