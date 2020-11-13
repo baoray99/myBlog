@@ -45,6 +45,7 @@
 .skills .skill-content .right .bars .line {
   height: 5px;
   width: 100%;
+  border-radius: 2.5px;
   background: lightgray;
   position: relative;
 }
@@ -52,6 +53,7 @@
   content: "";
   position: absolute;
   height: 100%;
+  border-radius: 2.5px;
   left: 0;
   top: 0;
   background: crimson;
@@ -78,7 +80,7 @@
 @media (max-width: 947px) {
   .skills .skill-content .column {
     width: calc(100%);
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 }
 @media (max-width: 690px) {

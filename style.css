@@ -14,7 +14,8 @@ section {
 }
 .about,
 .services,
-.skills {
+.skills,
+.team {
   font-family: "Poppins", sans-serif;
 }
 .about .about-content,
