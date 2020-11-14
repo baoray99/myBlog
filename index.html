@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./skill.css" />
     <link rel="stylesheet" href="./team.css" />
     <link rel="stylesheet" href="./contact.css" />
+    <link rel="stylesheet" href="./footer.css" />
     <link rel="stylesheet" href="./backtop.css" />
     <link
       rel="stylesheet"
@@ -20,6 +21,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
 
     <title>My Blog</title>
   </head>
@@ -48,10 +50,23 @@
     <section class="home" id="home">
       <div class="max-width">
         <div class="home-content">
-          <div class="text-1">Hello, my name is</div>
-          <div class="text-2">Bao Ray</div>
-          <div class="text-3">And I am a <span>Programmer</span></div>
-          <a href="#">Hire me</a>
+          <div class="column left">
+            <div class="text-1">Hello, my name is</div>
+            <div class="text-2">Bao Ray</div>
+            <div class="text-3">And I am a <span class="typing"></span></div>
+            <a href="#">Hire me</a>
+          </div>
+          <div class="column slide owl-carousel">
+            <div class="card">
+              <img src="./images/nigga.jpg" alt="">
+            </div>
+            <div class="card">
+              <img src="./images/tanle.jpg" alt="">
+            </div>
+            <div class="card">
+              <img src="./images/khi.jpg" alt="">
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -285,6 +300,17 @@
         </div>
       </div>
     </section>
+    <!-- footer  -->
+    <div class="footer">
+      <div class="max-width">
+        <div class="content">
+          <p>
+            Created By <span><a href="#">BaoRay</a></span> | 2020 All rights
+            reserved
+          </p>
+        </div>
+      </div>
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>

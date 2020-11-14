@@ -100,7 +100,9 @@
     margin: 20px 0;
     font-size: 25px;
   }
-
+  .navbar.sticky .menu li a:hover {
+    color: crimson;
+  }
   .max-width {
     width: 100%;
   }
@@ -108,6 +110,9 @@
 @media (max-width: 690px) {
   .max-width {
     padding: 0 23px;
+  }
+  .navbar.sticky .menu li a:hover {
+    color: crimson;
   }
 }
 @media (max-width: 500px) {

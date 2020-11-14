@@ -12,6 +12,13 @@ $(document).ready(function () {
         800
       );
     });
+  //typing animation
+  var type = new Typed(".typing", {
+    strings: ["Programmer.", "Coder.", "Designer.", "Gymmer."],
+    typeSpeed: 150,
+    backType: 120,
+    loop: true,
+  });
   //navbar animation
   $(window).scroll(function () {
     if (this.scrollY > 20) {
@@ -50,5 +57,13 @@ $(document).ready(function () {
         nav: false,
       },
     },
+  });
+  $(".slide").owlCarousel({
+    items: 1,
+    loop: true,
+    autoplayTimeOut: 2000,
+    autoplay: true,
+    autoplayHoverPause: true,
+    nav:false
   });
 });

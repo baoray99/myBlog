@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 /* home-section styling */
 .home {
-  display: flex;
   background: black;
   height: 100vh;
   color: #fff;
@@ -9,10 +8,27 @@
   font-family: "Ubuntu", sans-serif;
 }
 .home .max-width {
-  margin: auto 0 auto 40px;
+  height: 100%;
+}
+.home .home-content {
+  height: 100%;
+  align-items: center;
+}
+.home .home-content .column {
+  width: calc(50% - 20px);
+}
+.home .home-content .slide .card {
+  background: white;
+  height: 400px;
+  width: 100%;
+}
+.home .home-content .slide .card img {
+  border-radius: 10px;
+  height: 100%;
 }
 .home .home-content .text-1 {
   font-size: 27px;
+  width: 100%;
 }
 .home .home-content .text-2 {
   font-size: 75px;
@@ -53,6 +69,9 @@
 @media (max-width: 991px) {
 }
 @media (max-width: 947px) {
+  .home .home-content .slide{
+    display: none;
+  }
   .home .home-content .text-2 {
     font-size: 70px;
   }

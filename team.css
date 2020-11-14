@@ -47,11 +47,11 @@
   font-weight: 500;
   margin: 10px 0;
 }
-.owl-dots{
+.carousel .owl-dots{
   text-align: center;
   margin-top: 20px;
 }
-.owl-dot{
+.carousel .owl-dot{
   height: 13px;
   width: 13px;
   margin: 0 5px;
@@ -60,11 +60,11 @@
   border: 2px solid crimson!important;
   transition: all 0.3s ease;
 }
-.owl-dot.active{
+.carousel .owl-dot.active{
   width: 35px;
   border-radius: 14px;
 }
-.owl-dot.active,
+.carousel .owl-dot.active,
 .owl-dot:hover{
   background: crimson!important;
 }

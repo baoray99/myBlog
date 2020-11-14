@@ -19,9 +19,11 @@ section {
 .services,
 .skills,
 .team,
-.contact {
+.contact,
+.footer {
   font-family: "Poppins", sans-serif;
 }
+.home .home-content,
 .about .about-content,
 .services .serv-content,
 .skills .skill-content,
