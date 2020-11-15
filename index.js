@@ -9,7 +9,7 @@ $(document).ready(function () {
         {
           scrollTop: $(data_id).offset().top,
         },
-        800
+        700
       );
     });
   //typing animation
@@ -41,7 +41,7 @@ $(document).ready(function () {
   $(".carousel").owlCarousel({
     margin: 30,
     loop: true,
-    autoplayTimeOut: 1000,
+    autoplay:1000,
     autoplayHoverPause: true,
     responsive: {
       0: {
@@ -57,13 +57,5 @@ $(document).ready(function () {
         nav: false,
       },
     },
-  });
-  $(".slide").owlCarousel({
-    items: 1,
-    loop: true,
-    autoplayTimeOut: 2000,
-    autoplay: true,
-    autoplayHoverPause: true,
-    nav:false
   });
 });
